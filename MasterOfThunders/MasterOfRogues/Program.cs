@@ -48,7 +48,7 @@ namespace MasterOfPlants
             var comboMenu = new Menu("Combo", "Combo");
             {
                 comboMenu.AddItem(new MenuItem("seth", "Q Hitchance")).SetValue(new Slider(3, 1, 4));
-                comboMenu.AddItem(new MenuItem("setcharges", "Set R charges")).SetValue(new Slider(4, 0, 4));
+                comboMenu.AddItem(new MenuItem("setcharges", "Set R charges")).SetValue(new Slider(4, 0, 5));
                 comboMenu.AddItem(new MenuItem("QC", "Use Q in combo").SetValue(true));
                 comboMenu.AddItem(new MenuItem("WC", "Use W in combo").SetValue(false));
                 comboMenu.AddItem(new MenuItem("EC", "Use E in combo").SetValue(true));
