@@ -41,6 +41,14 @@ namespace MasterOfPlants
             var useE = p.getMenu().Item("EL").GetValue<bool>();
             var useR= p.getMenu().Item("RL").GetValue<bool>();
 
+            if (useR)
+            {
+                if (p.getMenu().Item("setcharges").GetValue<Slider>().Value == getPassiveBuff)
+                {
+                    //         Utils.ShowNotification(getPassiveBuff.ToString() ,System.Drawing.Color.Blue,100,true);
+                    skills.rCast(minion);
+                }
+            }
             if (useQ && !useW && !useE) skills.qCast(minion);
             else if (!useQ && useW && !useE) skills.wCast(minion);
             else if (!useQ && !useW && useE) skills.eCast(minion);
@@ -69,14 +77,7 @@ namespace MasterOfPlants
             }
             else
                 return;
-              if(useR)
-            {
-                if (p.getMenu().Item("setcharges").GetValue<Slider>().Value == getPassiveBuff)
-                {
-           //         Utils.ShowNotification(getPassiveBuff.ToString() ,System.Drawing.Color.Blue,100,true);
-                    skills.rCast(minion);
-                }
-            }
+           
         }
         public void jungleClear()
         {
@@ -85,6 +86,15 @@ namespace MasterOfPlants
             var useW = p.getMenu().Item("WJ").GetValue<bool>();
             var useE = p.getMenu().Item("EJ").GetValue<bool>();
             var useR = p.getMenu().Item("RJ").GetValue<bool>();
+
+            if (useR)
+            {
+                if (p.getMenu().Item("setcharges").GetValue<Slider>().Value == getPassiveBuff)
+                {
+                    //   Utils.ShowNotification(getPassiveBuff.ToString(), System.Drawing.Color.Blue, 100, true);
+                    skills.rCast(minion);
+                }
+            }
             if (useQ && !useW && !useE) skills.qCast(minion);
             else if (!useQ && useW && !useE) skills.wCast(minion);
             else if (!useQ && !useW && useE) skills.eCast(minion);
@@ -93,7 +103,6 @@ namespace MasterOfPlants
                 skills.wCast(minion);
                 skills.eCast(minion);
             }
-
             else if (useQ && !useW && useE)
             {
                 skills.qCast(minion);
@@ -111,15 +120,7 @@ namespace MasterOfPlants
                 skills.eCast(minion);
             }
             else
-                return;
-            if (useR)
-            {
-                if (p.getMenu().Item("setcharges").GetValue<Slider>().Value == getPassiveBuff)
-                {
-                 //   Utils.ShowNotification(getPassiveBuff.ToString(), System.Drawing.Color.Blue, 100, true);
-                    skills.rCast(minion);
-                }
-            }
+                return;         
         }
         public void harrash(Obj_AI_Hero target)
         {
@@ -168,6 +169,15 @@ namespace MasterOfPlants
             var useW = p.getMenu().Item("WC").GetValue<bool>();
             var useE = p.getMenu().Item("EC").GetValue<bool>();
             var useR = p.getMenu().Item("RC").GetValue<bool>();
+
+            if (useR)
+            {
+                if (p.getMenu().Item("setcharges").GetValue<Slider>().Value == getPassiveBuff)
+                {
+                    //      Utils.ShowNotification(getPassiveBuff.ToString(), System.Drawing.Color.Blue, 100, true);
+                    skills.rCast(target);
+                }
+            }
             if (useQ && !useW && !useE) skills.qCast(target);
             else if (!useQ && useW && !useE) skills.wCast(target);
             else if (!useQ && !useW && useE) skills.eCast(target);
@@ -192,19 +202,11 @@ namespace MasterOfPlants
                 skills.wCast(target);
                 skills.qCast(target);
                 skills.eCast(target);
-                skills.qCast(target);
-        
+                skills.qCast(target);        
             }
             else
                 return;
-            if (useR)
-            {
-                if (p.getMenu().Item("setcharges").GetValue<Slider>().Value == getPassiveBuff)
-                {
-              //      Utils.ShowNotification(getPassiveBuff.ToString(), System.Drawing.Color.Blue, 100, true);
-                    skills.rCast(target);
-                }
-            }
+           
         }
 
     }

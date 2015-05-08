@@ -10,3 +10,6 @@ D:\Github\LeagueSharp\MasterOfThunders\MasterOfRogues\bin\Release\LeagueSharp.Sa
 D:\Github\LeagueSharp\MasterOfThunders\MasterOfRogues\obj\Debug\MasterOfRogues.csprojResolveAssemblyReference.cache
 D:\Github\LeagueSharp\MasterOfThunders\MasterOfRogues\obj\Debug\MasterOfRogues.exe
 D:\Github\LeagueSharp\MasterOfThunders\MasterOfRogues\obj\Debug\MasterOfRogues.pdb
+C:\Users\Adri\Documents\GitHub\LeagueSharp\MasterOfThunders\MasterOfRogues\bin\Release\MasterOfRogues.exe.config
+C:\Users\Adri\Documents\GitHub\LeagueSharp\MasterOfThunders\MasterOfRogues\obj\Debug\MasterOfRogues.exe
+C:\Users\Adri\Documents\GitHub\LeagueSharp\MasterOfThunders\MasterOfRogues\obj\Debug\MasterOfRogues.pdb
