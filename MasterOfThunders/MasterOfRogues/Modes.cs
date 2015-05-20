@@ -209,5 +209,21 @@ namespace MasterOfPlants
            
         }
 
+        public void antiGapcloser(ActiveGapcloser gp)
+        {
+
+            var w = Config.Item("useW").GetValue<bool>();
+
+            if (w && gp.Sender.IsValidTarget(p.getPlayer().AttackRange))
+            {
+                if (w)
+                {
+                    skills.wCast(target);
+                }
+            }
+
+           
+        }
+
     }
 }

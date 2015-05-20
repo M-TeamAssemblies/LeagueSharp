@@ -1,0 +1,12 @@
+D:\workspace\MasterOfWind\MasterOfWind\bin\Debug\MasterOfWind.exe.config
+D:\workspace\MasterOfWind\MasterOfWind\obj\Debug\MasterOfWind.csprojResolveAssemblyReference.cache
+D:\workspace\MasterOfWind\MasterOfWind\bin\Debug\MasterOfWind.exe
+D:\workspace\MasterOfWind\MasterOfWind\bin\Debug\MasterOfWind.pdb
+D:\workspace\MasterOfWind\MasterOfWind\bin\Debug\LeagueSharp.Common.dll
+D:\workspace\MasterOfWind\MasterOfWind\bin\Debug\LeagueSharp.dll
+D:\workspace\MasterOfWind\MasterOfWind\bin\Debug\SharpDX.dll
+D:\workspace\MasterOfWind\MasterOfWind\bin\Debug\SharpDX.Direct3D9.dll
+D:\workspace\MasterOfWind\MasterOfWind\bin\Debug\clipper_library.dll
+D:\workspace\MasterOfWind\MasterOfWind\bin\Debug\LeagueSharp.xml
+D:\workspace\MasterOfWind\MasterOfWind\obj\Debug\MasterOfWind.exe
+D:\workspace\MasterOfWind\MasterOfWind\obj\Debug\MasterOfWind.pdb
